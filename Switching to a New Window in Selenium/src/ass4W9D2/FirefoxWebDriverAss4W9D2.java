@@ -72,6 +72,7 @@ public class FirefoxWebDriverAss4W9D2 {
 			}
 						
 			// Private incognito window
+			//https://stackoverflow.com/questions/33224070/how-to-open-incognito-private-window-with-selenium-wd-for-different-browser-type
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("-private");
 			driver = new FirefoxDriver(options);

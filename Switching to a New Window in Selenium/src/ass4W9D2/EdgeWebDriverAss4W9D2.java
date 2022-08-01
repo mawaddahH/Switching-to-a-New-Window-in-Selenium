@@ -71,6 +71,7 @@ public class EdgeWebDriverAss4W9D2 {
 		}
 
 		// Private incognito window
+		//https://stackoverflow.com/questions/36547933/how-to-start-edge-browser-in-incognito-mode-using-selenium-remote-webdriver
 		EdgeOptions options = new EdgeOptions();
 		options.addArguments("InPrivate");
 		driver = new EdgeDriver(options);
